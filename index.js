@@ -11,6 +11,7 @@ function shouting(text) {
 }
 function roundDown(number) {
   var whole = parseInt(`${number}`, 10 ) ;
+  var final ;
   if (whole > number) {final = whole - 1}
   else {final = whole}
   return final ;
