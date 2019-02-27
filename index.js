@@ -1,7 +1,7 @@
 function theTruth() {return true}
 function sayHey() {return 'Hey!'}
 function sayHeyFriend(friend) {
-  return `Hey ${friend}!`
+  return `Hey, ${friend}!`
 }
 function favoriteIceCream(cream) {
   return `I love ${cream}`
