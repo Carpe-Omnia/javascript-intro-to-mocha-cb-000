@@ -11,10 +11,6 @@ function shouting(text) {
 }
 function roundDown(number) {
   var whole = parseInt(`${number}`, 10 ) ;
-  var bigger ;
-  var smaller ;
-  var final ;
-  // (whole > number)? bigger = whole ; smaller = number : bigger = whole ; smaller = number ;
   if (whole > number) {final = whole - 1}
   else {final = whole}
   return final ;
