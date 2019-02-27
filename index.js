@@ -7,7 +7,7 @@ function favoriteIceCream(cream) {
   return `I love ${cream}`
 }
 function shouting(text) {
-  return text.toUpperCase ;
+  return text.toUpperCase() ;
 }
 function roundDown(number) {
   var whole = parseInt(`${number}`, 10 ) ;
